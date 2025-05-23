@@ -2,7 +2,7 @@ import pandas as pd
 from itertools import combinations
 
 # File path of the Excel file
-file_path = r'E:\矿产数据\数据\network\new\tong_with_class_CUTA.xls'
+file_path = r'E:\data\network\new\tong_with_class_CUTA.xls'
 
 # Read the Excel file
 df = pd.read_excel(file_path, engine='xlrd')
