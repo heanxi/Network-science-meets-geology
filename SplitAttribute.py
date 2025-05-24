@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the Excel file without specifying column names
-file_path = 'E:/network/du/Modularity/tong2.0/CUTA0.3.5-0.297-5.xlsx'
+file_path = 'data_path'
 df = pd.read_excel(file_path, engine='openpyxl')
 
 # Display the first few rows and column names
@@ -69,7 +69,7 @@ else:
             print(f"Statistics for {attr}:\n{result}\n")
 
     # Export results to a new Excel file
-    output_path = 'E:/network/du/Modularity/tong2.0/Statistics_Result.xlsx'
+    output_path = 'output_path'
 
     if stats:
         with pd.ExcelWriter(output_path) as writer:
