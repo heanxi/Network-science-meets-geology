@@ -2,7 +2,7 @@ import pandas as pd
 from itertools import combinations
 
 # File path of the Excel file
-file_path = r'E:\data\network\new\tong_with_class_CUTA.xls'
+file_path = r'data_path'
 
 # Read the Excel file
 df = pd.read_excel(file_path, engine='xlrd')
@@ -71,6 +71,6 @@ edges_df = pd.DataFrame(edges)
 print("First few rows of the Edges DataFrame:\n", edges_df.head())
 
 # Save the edge data to a CSV file
-output_path = r'E:\矿产数据\数据\network\new\output_cutA.csv'
+output_path = r'output_path'
 edges_df.to_csv(output_path, index=False)
 print(f"Edge data successfully generated and saved to '{output_path}'")
