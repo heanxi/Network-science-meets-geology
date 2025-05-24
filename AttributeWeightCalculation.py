@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Define the file path to the input data
-data_path = 'E:\\network\\du\\tong2.0\\shangquanfa_2.0cutA.csv'
+data_path = 'data_path'
 
 # Read the CSV data into a DataFrame
 data = pd.read_csv(data_path)
